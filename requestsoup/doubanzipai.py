@@ -32,4 +32,5 @@ def getpage(page):
         getpic(url)
 
 
-getpage(1)
+for i in range(100):
+    getpage(i)
